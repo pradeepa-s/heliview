@@ -1,0 +1,27 @@
+class MyClass1
+{
+    + PublicFunc
+    - PrivateFunc
+}
+
+class MyClass2
+{
+    + PublicFunc
+    - PrivateFunc
+}
+
+class MyClass3
+{
+    + PublicFunc
+    - PrivateFunc
+}
+
+class MyClass4
+{
+    + PublicFunc
+    - PrivateFunc
+}
+
+MyClass1 --> MyClass2
+MyClass1 o-- MyClass3
+MyClass1 *-- MyClass4
